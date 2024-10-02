@@ -40,8 +40,11 @@ Ensure that the MySQL JDBC driver is installed and configured correctly in your 
 Enter your MySQL credentials and details for the common (destination) server in the provided placeholders in each notebook.
 3. Run Jupyter Notebooks:
 Navigate to /notebooks and execute each notebook:
+
   a. MockDataGenerator.ipynb: Generates data for each outlet. You can edit the code and create mock data according to your requirements
+  
   b. mysqlDataLoader.ipynb: Loads the data of each outlet into it's respective mysql server.
+  
   c. SparkETLJob.ipynb: Collects data from individual servers, performs transformations and loads into destination.
 
 
