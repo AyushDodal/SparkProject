@@ -34,12 +34,14 @@ MySQL: The underlying database for each outlet, from where data is extracted.
 
 
 ## How to Run
+
 1. Setup MySQL Databases: Execute the SQL scripts located in /mysql to set up the database schemas for each outlet.
+
 2. Configure Your Environment:
 Ensure that the MySQL JDBC driver is installed and configured correctly in your Spark environment.
 Enter your MySQL credentials and details for the common (destination) server in the provided placeholders in each notebook.
-3. Run Jupyter Notebooks:
-Navigate to /notebooks and execute each notebook:
+
+3. Run Jupyter Notebooks: Navigate to /notebooks and execute each notebook:
 
   a. MockDataGenerator.ipynb: Generates data for each outlet. You can edit the code and create mock data according to your requirements
   
