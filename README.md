@@ -19,13 +19,17 @@ The chain of departmental stores operates across three major cities, each with i
 
 ## Project Structure
 /notebooks: Contains Jupyter notebooks detailing the ETL process.
+
 /mysql: Includes SQL scripts for creating the necessary tables on each MySQL server.
+
 /mockData: Sample data that was generated from Python script and used for testing and demonstration purposes.
 
 
 ## Technologies Used
 Apache Spark: Used for processing large datasets and performing complex transformations.
+
 PySpark: The Python API for Spark that facilitates writing Spark applications in Python.
+
 MySQL: The underlying database for each outlet, from where data is extracted.
 
 
